@@ -1,11 +1,11 @@
 <h2 align="center">
     SENAI - SP    
 </h2>
-<h3 align="center">
+<h2 align="center">
     ExoAPI - Gerenciamento de projetos
 </h3>
 
-<h1 align="center">
+<h2 align="center">
 A ExoAPI fornece endpoints para o cadastro de projetos e o cadastro de usuários. Cada um de seus métodos está listado a seguir.
 </h1>
 
