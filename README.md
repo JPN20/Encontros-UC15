@@ -1,9 +1,6 @@
 <h2 align="center">
-    SENAI - SP    
+    Documentação AP1 - SENAI - UC15    
 </h2>
-<h2 align="center">
-    ExoAPI - Gerenciamento de projetos
-</h3>
 
 A ExoAPI fornece endpoints para o cadastro de projetos e o cadastro de usuários. Cada um de seus métodos está listado a seguir.
 	
