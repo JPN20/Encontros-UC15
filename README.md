@@ -352,17 +352,17 @@ Web API escrita em C# na plataforma .NET 6.0.
 
 O projeto está organizado conforme descrição a seguir:
 
-**Pasta Contexts**: contém a classe de acesso e mapeamento do banco de dados
+**Pasta Contexts**: possui a classe de acesso e mapeamento do banco de dados
 
-**Pasta Repositories**: contém as classes de manipulação de dados de cada uma das entidades
+**Pasta Repositories**: possui as classes de manipulação de dados de cada uma das entidades
 
-**Pasta Models**: contém as classes de modelo que representam cada uma das entidades
+**Pasta Models**: possui as classes de modelo que representam cada uma das entidades
 
-**Pasta Enumeradores**: contém as especificações de perfil do usuário (administrador, usuário comum) e os possíveis status de um projeto (não iniciado, em desenvolvimento, cancelado, pausado, em homologação, finalizado)
+**Pasta Enumeradores**: possui as especificações de perfil do usuário (administrador, usuário comum) e os possíveis status de um projeto (não iniciado, em desenvolvimento, cancelado, pausado, em homologação, finalizado)
 
-**Pasta Controllers**: contém os controladores que implementam e expõem os endpoints e métodos da API
+**Pasta Controllers**: possui os controladores que implementam e expõem os endpoints e métodos da API
 
-**Pasta Tools**: contém a classe Password.cs que oferece método para hashear as senhas antes de transitar com elas entre camadas
+**Pasta Tools**: possui a classe Password.cs que fornece método para hashear as senhas antes de transitar com elas entre camadas
 
 <h2 align="center">
 ## Pré-requisitos para edição
