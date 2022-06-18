@@ -327,9 +327,8 @@ Deleta um usuário pelo seu id, mas precisa de autenticação e perfil do admini
 <h2 align="center">
 #### Request
 </h2>
-<h2 align="center">
+
 > DELETE: /api/usuarios/{id}
-	</h2>
 
 <h2 align="center">
 #### Response
