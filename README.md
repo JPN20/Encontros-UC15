@@ -341,9 +341,8 @@ Deleta um usuário pelo seu id, mas precisa de autenticação e perfil do admini
 <h2 align="center">
 ## Tecnologias utilizadas
 </h2>
-<h2 align="center">
+
 Web API escrita em C# na plataforma .NET 6.0.
-	</h2>
 
 <h2 align="center">
 ## Organização do projeto
