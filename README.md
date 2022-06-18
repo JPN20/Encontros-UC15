@@ -2,6 +2,8 @@
     Documentação AP1 - SENAI - UC15    
 </h2>
 
+<img width="1467" alt="swagger" src="https://user-images.githubusercontent.com/75049978/174422893-98b7ebcc-6c6e-4766-8d70-3b23eecba2c2.png">
+
 A ExoAPI fornece endpoints para o cadastro de projetos e o cadastro de usuários. Cada um de seus métodos está listado a seguir.
 	
 <h2 align="center">
