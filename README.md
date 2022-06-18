@@ -5,9 +5,7 @@
     ExoAPI - Gerenciamento de projetos
 </h3>
 
-<center>
 A ExoAPI fornece endpoints para o cadastro de projetos e o cadastro de usuários. Cada um de seus métodos está listado a seguir.
-</>
 	
 <h2 align="center">
 ## Endpoints e seus métodos
@@ -16,9 +14,8 @@ A ExoAPI fornece endpoints para o cadastro de projetos e o cadastro de usuários
 <h2 align="center">
 ### Login
 </h2>
-<h2 align="center">
+
 Permite que o usuário faça cadastro na API.
-	</h2>
 
 <h2 align="center">
 #### Request
@@ -46,9 +43,9 @@ Permite que o usuário faça cadastro na API.
 <h2 align="center">
 ### Lista de projetos
 </h2>
-<h2 align="center">
+
 Seu propósito é procurar todos os projetos cadastrados no banco, mas precisa de autenticação.
-	</h2>
+
 <h2 align="center">
 #### Request
 </h2>
@@ -81,9 +78,8 @@ Seu propósito é procurar todos os projetos cadastrados no banco, mas precisa d
 <h2 align="center">
 ### Busca de projeto por id
 </h2>
-<h2 align="center">
+
 Localiza um projeto específico pelo seu id, mas precisa de autenticação.
-	</h2>
 
 <h2 align="center">
 #### Request
@@ -108,9 +104,8 @@ Localiza um projeto específico pelo seu id, mas precisa de autenticação.
 <h2 align="center">
 ### Cadastro de projeto
 </h2>
-<h2 align="center">
+
 Arquiva um novo projeto no banco de dados, mas precisa de autenticação.
-	</h2>
 
 <h2 align="center">
 #### Request
@@ -144,9 +139,8 @@ Arquiva um novo projeto no banco de dados, mas precisa de autenticação.
 <h2 align="center">
 ### Alteração de projeto
 </h2>
-<h2 align="center">
+
 Permite os dados de um projeto existente sejam alterados, mas precisa de autenticação.
-	</h2>
 
 <h2 align="center">
 #### Request
@@ -180,9 +174,8 @@ Permite os dados de um projeto existente sejam alterados, mas precisa de autenti
 <h2 align="center">
 ### Exclusão projeto
 </h2>
-<h2 align="center">
+
 Deleta um projeto do banco de dados, mas precisa de autenticação.
-	</h2>
 
 <h2 align="center">
 #### Request
@@ -201,9 +194,8 @@ Deleta um projeto do banco de dados, mas precisa de autenticação.
 <h2 align="center">
 ### Lista de usuários
 </h2>
-<h2 align="center">
+
 Busca todos os usuários cadastrados no banco de dados, mas precisa de autenticação.
-	</h2>
 
 <h2 align="center">
 #### Request
@@ -237,9 +229,9 @@ Busca todos os usuários cadastrados no banco de dados, mas precisa de autentica
 <h2 align="center">
 ### Busca de usuário
 </h2>
-<h2 align="center">
+
 Busca um usuário específico pelo seu id, mas precisa de autenticação.
-<h2 align="center">
+
 #### Request
 </h2>
 
@@ -262,9 +254,8 @@ Busca um usuário específico pelo seu id, mas precisa de autenticação.
 <h2 align="center">
 ### Cadastro de usuário
 </h2>
-<h2 align="center">
+
 Insere um novo usuário na base de dados.
-	</h2>
 
 <h2 align="center">
 #### Request
@@ -297,9 +288,8 @@ Insere um novo usuário na base de dados.
 <h2 align="center">
 ### Alteração de usuário
 </h2>
-<h2 align="center">
+
 Altera os dados de um usuário existente, mas precisa de autenticação.
-	</h2>
 
 <h2 align="center">
 #### Request
@@ -332,9 +322,8 @@ Altera os dados de um usuário existente, mas precisa de autenticação.
 <h2 align="center">
 ### Exclusão usuário
 </h2>
-<h2 align="center">
+
 Deleta um usuário pelo seu id, mas precisa de autenticação e perfil do administrador.
-	</h2>
 
 <h2 align="center">
 #### Request
@@ -360,49 +349,34 @@ Web API escrita em C# na plataforma .NET 6.0.
 <h2 align="center">
 ## Organização do projeto
 </h2>
-<h2 align="center">
+
 O projeto está organizado conforme descrição a seguir:
-<h2 align="center">
+
 **Pasta Contexts**: contém a classe de acesso e mapeamento do banco de dados
-	</h2>
 
-<h2 align="center">
 **Pasta Repositories**: contém as classes de manipulação de dados de cada uma das entidades
-	</h2>
 
-<h2 align="center">
 **Pasta Models**: contém as classes de modelo que representam cada uma das entidades
-	</h2>
 
-<h2 align="center">
 **Pasta Enumeradores**: contém as especificações de perfil do usuário (administrador, usuário comum) e os possíveis status de um projeto (não iniciado, em desenvolvimento, cancelado, pausado, em homologação, finalizado)
-	</h2>
 
-<h2 align="center">
 **Pasta Controllers**: contém os controladores que implementam e expõem os endpoints e métodos da API
-	</h2>
 
-<h2 align="center">
 **Pasta Tools**: contém a classe Password.cs que oferece método para hashear as senhas antes de transitar com elas entre camadas
-	</h2>
 
 <h2 align="center">
 ## Pré-requisitos para edição
 	</h2>
 
-<h2 align="center">
 -   .NET SDK 6.0
 -   Visual Studio 2022 ou Visual Studio for Mac
 -   Git e acesso ao GitHub
-	</h2>
 
 <h2 align="center">
 ## Pré-requisitos para execução
 	</h2>
 
-<h2 align="center">
 -   .NET Runtime 6.0
-	</h2>
 
 <h2 align="center">
 ## Execução da aplicação
@@ -412,14 +386,10 @@ O projeto está organizado conforme descrição a seguir:
 ### No Visual Studio 2022
 	</h2>
 
-<h2 align="center">
 Clique com o botão direito do mouse na solução e selecione a opção "Run solution"
-	</h2>
 
 <h2 align="center">
-## Colaboradores
+## Equipe
 	</h2>
 
-<h2 align="center">
 João Pedro Neves Guerreiro
-	</h2>
